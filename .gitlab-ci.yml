@@ -47,11 +47,6 @@ project-test:
   script:
     - mvn $MAVEN_CLI_OPTS test
 
-lint-test:
-  stage: test
-  script:
-    - echo "No lint issues found."
-
 project-deploy:
   stage: deploy
   script:
