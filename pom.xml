@@ -12,10 +12,19 @@
 	<artifactId>sproutfx-common-security-spring-boot-starter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sproutfx-common-security-spring-boot-starter</name>
+
 	<properties>
 		<java.version>11</java.version>
 		<jjwt.version>0.11.2</jjwt.version>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>gitlab-maven</id>
+			<url>https://gitlab.com/api/v4/groups/16033742/-/packages/maven/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
