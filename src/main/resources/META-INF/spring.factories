@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    kr.sproutfx.common.sproutfxcommonsecurityspringbootstarter.configuration.JwtConfiguration,\
+    kr.sproutfx.common.sproutfxcommonsecurityspringbootstarter.configuration.SecurityConfiguration
